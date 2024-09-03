@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+section {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Products Container */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
+}
+
+/* Product Card */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 50%;
+  max-width: 300px;
+  background-color: #555;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: px; /* Adjust this value as needed */
+  box-sizing: border-box; /* Include padding and border in the height calculation */
+}
+
+/* Product Image */
+.product-image {
+  width: 50%;
+  height: auto;
+  max-height: 100px; /* Ensure image fits nicely */
+  object-fit: cover;
+  display: block; /* Ensure image is treated as a block element */
+}
+
+/* Product Details */
+.product-details {
+  padding: 16px;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out content evenly */
+}
+
+/* Product Title */
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Product Description */
+.product-description {
+  font-size: 14px;
+  color: #555;
+  margin: 8px 0;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 16px;
+  color: #000;
+  margin: 8px 0;
+}
+
+/* Product Actions */
+.product-actions {
+  margin-top: auto; /* Pushes actions to the bottom */
+  display: flex;
+  flex-direction: row; /* Arrange buttons horizontally */
+  gap: 8px; /* Space between buttons */
+  width: 100%; /* Full width to ensure buttons are aligned properly */
+  padding: 0 16px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Action Button */
+.action-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  flex: 1; /* Allow buttons to grow and fill available space */
+  min-width: 90px; /* Ensure a minimum width for visibility */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-card {
+    max-width: 100%; /* Full width on smaller screens */
+    height: auto; /* Remove fixed height for responsive behavior */
+  }
+
+  .product-actions {
+    flex-direction: column; /* Stack buttons vertically on very small screens */
+    margin-top: 16px; /* Add margin on top for spacing */
+  }
+
+  .action-button {
+    width: 100%; /* Full width for buttons on smaller screens */
+    margin-bottom: 8px; /* Add bottom margin to space buttons out */
+  }
+
+  .action-button:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last button */
+  }
+}
+
+
+
+
+

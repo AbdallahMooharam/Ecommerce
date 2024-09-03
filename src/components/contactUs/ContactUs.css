@@ -1,0 +1,86 @@
+/* General Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Section Styles */
+  .contact-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contact-icon {
+    font-size: 2em;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .contact-icon:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-icons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .contact-icon {
+      font-size: 1.5em;
+    }
+  }
+  
+  /* Footer Styles */
+  .footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  

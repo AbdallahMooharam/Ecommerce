@@ -1,0 +1,82 @@
+/* src/ChatPage.css */
+
+/* Chat Container Styles */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #e5ddd5; /* لون خلفية مشابه لواتساب */
+}
+
+/* Chat Header Styles */
+.chat-header {
+  padding: 10px;
+  background: #075e54; /* لون أخضر مشابه للواتساب */
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Chat Body Styles */
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #ffffff; /* لون الخلفية */
+}
+
+/* Chat Message Styles */
+.chat-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 80%;
+  line-height: 1.4;
+  word-wrap: break-word; /* لضمان تنسيق الكلمات الطويلة */
+}
+
+.chat-message.user {
+  background: #dcf8c6; /* لون خلفية الرسائل من المستخدم */
+  margin-left: auto;
+  text-align: right;
+}
+
+.chat-message.admin {
+  background: #ffffff; /* لون خلفية الرسائل من المسؤول */
+}
+
+/* Chat Footer Styles */
+.chat-footer {
+  display: flex;
+  padding: 10px;
+  background: #ffffff; /* خلفية إدخال النص */
+  border-top: 1px solid #ddd;
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px; /* شكل مدور للنصوص */
+  background: #f1f1f1; /* لون خلفية إدخال النص */
+}
+
+.chat-footer button {
+  margin-left: 10px;
+  padding: 10px;
+  background: #075e54; /* لون أخضر مشابه للواتساب */
+  color: white;
+  border: none;
+  border-radius: 20px; /* شكل مدور للأزرار */
+  cursor: pointer;
+}
+
+.chat-footer button:hover {
+  background: #128c7e; /* لون أغمق عند التمرير */
+}
