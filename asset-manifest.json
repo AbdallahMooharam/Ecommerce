@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/About-Classic-Brand/static/css/main.19c58049.css",
-    "main.js": "/About-Classic-Brand/static/js/main.475c4060.js",
-    "static/js/453.29abe594.chunk.js": "/About-Classic-Brand/static/js/453.29abe594.chunk.js",
-    "static/media/fa-solid-900.ttf": "/About-Classic-Brand/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/About-Classic-Brand/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/About-Classic-Brand/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/About-Classic-Brand/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/About-Classic-Brand/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/About-Classic-Brand/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/fa-v4compatibility.ttf": "/About-Classic-Brand/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/About-Classic-Brand/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/About-Classic-Brand/index.html",
-    "main.19c58049.css.map": "/About-Classic-Brand/static/css/main.19c58049.css.map",
-    "main.475c4060.js.map": "/About-Classic-Brand/static/js/main.475c4060.js.map",
-    "453.29abe594.chunk.js.map": "/About-Classic-Brand/static/js/453.29abe594.chunk.js.map"
+    "main.css": "/Ecommerce/static/css/main.90dfe6b0.css",
+    "main.js": "/Ecommerce/static/js/main.3629d5c6.js",
+    "static/js/453.29abe594.chunk.js": "/Ecommerce/static/js/453.29abe594.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Ecommerce/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Ecommerce/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/Ecommerce/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/Ecommerce/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/Ecommerce/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/Ecommerce/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Ecommerce/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Ecommerce/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Ecommerce/index.html",
+    "main.90dfe6b0.css.map": "/Ecommerce/static/css/main.90dfe6b0.css.map",
+    "main.3629d5c6.js.map": "/Ecommerce/static/js/main.3629d5c6.js.map",
+    "453.29abe594.chunk.js.map": "/Ecommerce/static/js/453.29abe594.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c58049.css",
-    "static/js/main.475c4060.js"
+    "static/css/main.90dfe6b0.css",
+    "static/js/main.3629d5c6.js"
   ]
 }
